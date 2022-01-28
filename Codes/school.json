@@ -1,0 +1,15 @@
+{
+    "School": [
+        {
+        "name": "DPS",
+        "principal": "Someone",
+        "Students":[
+            {
+                "rno": 11,
+                "name": "Gautam Jha",
+                "marks": 53
+            }
+        ]
+        }
+    ]
+}

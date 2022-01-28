@@ -1,0 +1,51 @@
+# String datatype
+myself: Gautam Jha
+fruit: "apple"
+job: 'Devops Engineer'
+---
+bio: |
+ Hello my name is Gautam Jha.
+ I am learning Devops with kunal kushwaha.
+
+# write a single line in multiple lines
+message: >
+ this will
+ be treated as
+ one single line.
+
+# same as
+message: this will be treated as one single line.
+
+explicit string: !!str here string is explicity defined data type fot this key
+
+number: 5478
+
+marks: 95.74
+
+booleanValue: !!bool No # n, N, false, False, FALSE
+# same for true --> yes, y, Y
+
+#specify the type
+zero: !!int 0
+PositiveNum: !!int 45
+negetiveNum: !!int -96
+binaryNum: !!int 0b1101
+octalNum: !!int 06547
+hexa: !!int 0x45
+commaValue: !!int +540_000 #540,000
+
+#floating point numbers
+marks: !!float 56.89
+infinite: !!float .inf
+not a num: .nan
+
+# null
+surname: !!null Null #or null, NULL, ~ 
+# sometimes keys may also be null
+~: this is a null key.
+
+
+# only date without time
+Date: 2022-01-28
+# for both date and time
+date and time: 2022-01-28T02:59:43
